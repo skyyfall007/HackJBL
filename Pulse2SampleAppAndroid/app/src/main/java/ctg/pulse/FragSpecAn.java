@@ -17,9 +17,7 @@ import com.harman.pulsesdk.PulseColor;
 
 import com.harman.pulsesdk.PulseColor;
 
-import Hexagon.HexagonButtonLayout;
-import Hexagon.HexagonItem;
-import Hexagon.HexToggle;
+
 import butterknife.Bind;
 import util.widget.MyGridView;
 
