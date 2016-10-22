@@ -3,48 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="/home/leemartinc/Documents/Pulse2SampleAppAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/home/leemartinc/Documents/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_0764444f9b194c5c6d3fbb53aeff6b76438de00d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/leemartinc/Documents/Pulse2SampleAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/home/leemartinc/Documents/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_73070f55814077a557764450d35ac11c9fa78baa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/leemartinc/Documents/Pulse2SampleAppAndroid/app/build/intermediates/exploded-aar/Pulse2SampleAppAndroid/pulsesdk-release/unspecified/jars/classes.jar"
+        jar="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/exploded-aar/Pulse2SampleAppAndroid/pulsesdk-release/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="146031755399f28d1d02abcb51f7debb166b7ddc">
-        <dex dex="/home/leemartinc/Documents/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/Pulse2SampleAppAndroid-pulsesdk-release-unspecified_04dba344d06864bc5a3275dddb86322e265fad3a.jar" />
+        <dex dex="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/Pulse2SampleAppAndroid-pulsesdk-release-unspecified_cdafcc77e2fbabe13214b8a661058090feecd6db.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/leemartinc/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jar="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="/home/leemartinc/Documents/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_ede23285f531b65e621c490aac952d935ae6f313.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_2fcce3678710bdeeb7bcf0f2873f15892f1b0961.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/leemartinc/Documents/Pulse2SampleAppAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jar="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/home/leemartinc/Documents/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_26dbf38f5fb676a321afb0f64b49a757c4f3a26d.jar" />
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_0bb0a22a393329f79f7d71da9b5fca947b705a1c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,7 +35,25 @@
         optimize="true"
         revision="23.0.2"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/home/leemartinc/Documents/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_9bb9904a39974afbccdda0e38c3bf3fafa7647af.jar" />
+        <dex dex="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_9bb9904a39974afbccdda0e38c3bf3fafa7647af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/leemartinc/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_ede23285f531b65e621c490aac952d935ae6f313.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_d6a40ae9df025fa0f8844a9ae4aa89c3081d33dc.jar" />
     </item>
 
 </items>
