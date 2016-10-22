@@ -85,7 +85,7 @@ public class FragSpecAnTest extends android.support.v4.app.Fragment  {
                     //set image by yourself
                     pixes[i] = new PulseColor((byte)0, (byte)0, (byte) 0);
                 }
-                pixes[11] = new PulseColor((byte)0, (byte)0, (byte) 255);
+                pixes[22] = new PulseColor((byte)0, (byte)0, (byte) 255);
                 pulseDemo.pulseHandler.SetColorImage(pixes);
 
 
@@ -105,7 +105,40 @@ public class FragSpecAnTest extends android.support.v4.app.Fragment  {
 
 
             }
+
+            public int[] grid(int row, int height) {
+
+
+                final int[][] matrix = {
+
+                        /*9*/{88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98},
+                        /*8*/{77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87},
+                        /*7*/{66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76},
+                        /*6*/{55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65},
+                        /*5*/{44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54},
+                        /*4*/{33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43},
+                        /*3*/{22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32},
+                        /*2*/{11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21},
+                        /*1*/{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+                        // 1    2  3    4  5   6   7   8   9   10  11
+                };
+
+
+                for (int i = 0; i < matrix.length; i++) {
+                    for (int j = 0; j < matrix[i].length; j++) {
+                        System.out.print(matrix[i][j] + " ");
+                    }
+                    System.out.println();
+                }
+                //CREATE ARRAY FOR THOSE VALUES IN THE COLUMN THEN RETURN THE ARRAY.
+                //column 5, row 4
+                return matrix[5];
+
+
+            }
+
         });
+
 
 
 
