@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">pulseDemo</string>
+    <string name="pattern_info">Color Brodcast allows you to set the color patern of your Pulse 2. Simply tap a square below to see its corisponding pattern on the Pulse 2. Additionally, you can tap a feature to the left or select the rebrodcast option to send the patern to other neaby Pulse 2s .</string>
+    <string name="character_info">Select a number, a letter and a special character from the boxes below.</string>
+    <string name="mic_info">Request the ambient volume from the Pulse 2\'s microphone. The returned value is the average of several measurements taken over a 1 second interval. The returned value range is 0-99, with 99 being the loudest.</string>
+    <string name="picker_info">Capture a color value using the JBL Prism - Color Sensor Lens, on the back of the Pulse 2.</string>
+
+</resources>

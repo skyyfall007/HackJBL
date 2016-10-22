@@ -1,0 +1,88 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="top">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:singleLine="false"
+        android:gravity="left|center"
+        android:text="@string/character_info"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="Your Selection"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/my_char"
+            android:gravity="center"
+            android:text=""
+            android:background="@drawable/shape_reg"/>
+    </LinearLayout>
+
+    <util.widget.MyGridView
+        android:id="@+id/char_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:columnWidth="66dp"
+        android:numColumns="5"
+        android:stretchMode="columnWidth"
+        android:gravity="center" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp"
+        android:src="#eeeeee"/>
+    <util.widget.MyGridView
+        android:id="@+id/char_alphabeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:columnWidth="64dp"
+        android:numColumns="6"
+        android:stretchMode="columnWidth"
+        android:gravity="center" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp"
+        android:src="#eeeeee"/>
+    <util.widget.MyGridView
+        android:id="@+id/char_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:columnWidth="66dp"
+        android:numColumns="5"
+        android:stretchMode="columnWidth"
+        android:gravity="center" />
+</LinearLayout>
+</ScrollView>

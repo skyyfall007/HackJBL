@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="pulsesdk-release-unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/Pulse2SampleAppAndroid/pulsesdk-release/unspecified/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/Pulse2SampleAppAndroid/pulsesdk-release/unspecified/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

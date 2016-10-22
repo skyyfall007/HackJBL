@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="settingbackground">#e5ede1</color>
+    <color name="settingbackground1">#dee1d4</color>
+    <color name="transparent_background">#50dee1d4</color>  
+    <color name="text_colors">#ada37f</color>
+    <color name="TextColor">#FFFFFF</color>
+    <color name="bgColor">#000000</color>
+    <color name="calendar_background">#e3eef4</color>
+    <color name="selection">#b1dce2ff</color>
+    <color name="calendar_zhe_day">#faedda</color>
+    <color name="event_center">#ff6bd697</color>
+    <color name="noMonth">#c0c0c0</color>
+    <color name="title_text_6">#FF529bd0</color>
+    <color name="title_text_7">#FFbc4445</color>
+    <color name="text_6">#FFf3feff</color>
+    <color name="text_7">#FFfff1f2</color>
+    <color name="tempColor">#e3e3e3</color>
+    <color name="frame">#ffcc3266</color>
+    <color name="forecast_point">#fff66898</color>
+    <color name="br0">#ffffc5dd</color>
+    <color name="Text">#603b07</color>
+    <color name="ToDayText">#ffc2a53d</color>
+    <color name="Noteback">#FFCC99</color>
+    <color name="chartLable">#FFB9D1</color>
+    <color name="blued">#8eddcd</color>
+    <color name="blueded">#cce8fd</color>
+    <color name="fenfen">#ffe1e9</color>
+    <color name="white">#ffffff</color>
+    
+    <color name="item_common">#F111</color>
+    <color name="item_1">#F222</color>
+    <color name="item_2">#F000</color>
+    <color name="transparent_gray">#A000</color>
+ <!-- ��ɫ -->
+    <color name="ivory">#fffff0</color>
+ <!-- ����ɫ -->
+    <color name="lightyellow">#ffffe0</color>
+ <!-- ����ɫ -->
+    <color name="yellow">#ffff00</color>
+ <!-- ��ɫ -->
+    <color name="snow">#fffafa</color>
+ <!-- ѩ��ɫ -->
+    <color name="floralwhite">#fffaf0</color>
+ <!-- ����ɫ -->
+    <color name="lemonchiffon">#fffacd</color>
+ <!-- ���ʳ�ɫ -->
+    <color name="cornsilk">#fff8dc</color>
+ <!-- �׳�ɫ -->
+    <color name="seaShell">#fff5ee</color>
+ <!-- ����ɫ -->
+    <color name="lavenderblush">#fff0f5</color>
+ <!-- ���Ϻ� -->
+    <color name="papayawhip">#ffefd5</color>
+ <!-- ��ľɫ -->
+    <color name="blanchedalmond">#ffebcd</color>
+ <!-- ����ɫ -->
+    <color name="mistyrose">#ffe4e1</color>
+ <!-- ǳõ��ɫ -->
+    <color name="bisque">#ffe4c4</color>
+ <!-- �ۻ�ɫ -->
+    <color name="moccasin">#ffe4b5</color>
+ <!-- ¹Ƥɫ -->
+    <color name="navajowhite">#ffdead</color>
+ <!-- ���߰� -->
+    <color name="peachpuff">#ffdab9</color>
+ <!-- ��ɫ -->
+    <color name="gold">#ffd700</color>
+ <!-- ��ɫ -->
+    <color name="pink">#ffc0cb</color>
+ <!-- �ۺ�ɫ -->
+    <color name="lightpink">#ffb6c1</color>
+ <!-- ���ۺ�ɫ -->
+    <color name="orange">#ffa500</color>
+ <!-- ��ɫ -->
+    <color name="lightsalmon">#ffa07a</color>
+ <!-- ����ɫ -->
+    <color name="darkorange">#ff8c00</color>
+ <!-- ���ۻ�ɫ -->
+    <color name="coral">#ff7f50</color>
+ <!-- ɺ��ɫ -->
+    <color name="hotpink">#ff69b4</color>
+ <!-- �ȷۺ�ɫ -->
+    <color name="tomato">#ff6347</color>
+ <!-- ������ɫ -->
+    <color name="orangered">#ff4500</color>
+ <!-- ���ɫ -->
+    <color name="deeppink">#ff1493</color>
+ <!-- ��ۺ�ɫ -->
+    <color name="fuchsia">#ff00ff</color>
+ <!-- �Ϻ�ɫ -->
+    <color name="magenta">#ff00ff</color>
+ <!-- ����ɫ -->
+    <color name="red">#ff0000</color>
+ <!-- ��ɫ -->
+    <color name="oldlace">#fdf5e6</color>
+ <!-- �ϻ�ɫ -->
+    <color name="lightgoldenrodyellow">#fafad2</color>
+ <!-- �����ɫ -->
+    <color name="linen">#faf0e6</color>
+ <!-- ����ɫ -->
+    <color name="antiquewhite">#faebd7</color>
+ <!-- �Ŷ��� -->
+    <color name="salmon">#fa8072</color>
+ <!-- ����ɫ -->
+    <color name="ghostwhite">#f8f8ff</color>
+ <!-- ����� -->
+    <color name="mintcream">#f5fffa</color>
+ <!-- ����ɫ -->
+    <color name="whitesmoke">#f5f5f5</color>
+ <!-- �̰�ɫ -->
+    <color name="beige">#f5f5dc</color>
+ <!-- ��ɫ -->
+    <color name="wheat">#f5deb3</color>
+ <!-- ǳ��ɫ -->
+    <color name="sandybrown">#f4a460</color>
+ <!-- ɳ��ɫ -->
+    <color name="azure">#f0ffff</color>
+ <!-- ����ɫ -->
+    <color name="honeydew">#f0fff0</color>
+ <!-- ��ɫ -->
+    <color name="aliceblue">#f0f8ff</color>
+ <!-- ����˹�� -->
+    <color name="khaki">#f0e68c</color>
+ <!-- �ƺ�ɫ -->
+    <color name="lightcoral">#f08080</color>
+ <!-- ��ɺ��ɫ -->
+    <color name="palegoldenrod">#eee8aa</color>
+ <!-- ������ɫ -->
+    <color name="violet">#ee82ee</color>
+ <!-- ������ɫ -->
+    <color name="darksalmon">#e9967a</color>
+ <!-- ����ɫ -->
+    <color name="lavender">#e6e6fa</color>
+ <!-- ����ɫ -->
+    <color name="lightcyan">#e0ffff</color>
+ <!-- ����ɫ -->
+    <color name="burlywood">#deb887</color>
+ <!-- ʵľɫ -->
+    <color name="plum">#dda0dd</color>
+ <!-- ����ɫ -->
+    <color name="gainsboro">#dcdcdc</color>
+ <!-- ����ɫ -->
+    <color name="crimson">#dc143c</color>
+ <!-- �����ɫ -->
+    <color name="palevioletred">#db7093</color>
+ <!-- ��������ɫ -->
+    <color name="goldenrod">#daa520</color>
+ <!-- ������ɫ -->
+    <color name="orchid">#da70d6</color>
+ <!-- ����ɫ -->
+    <color name="thistle">#d8bfd8</color>
+ <!-- ��ɫ -->
+    <color name="lightgray">#d3d3d3</color>
+ <!-- ����ɫ -->
+    <color name="lightgrey">#d3d3d3</color>
+ <!-- ����ɫ -->
+    <color name="tan">#d2b48c</color>
+ <!-- ��ɫ -->
+    <color name="chocolate">#d2691e</color>
+ <!-- �ɿ���ɫ -->
+    <color name="peru">#cd853f</color>
+ <!-- ��³ɫ -->
+    <color name="indianred">#cd5c5c</color>
+ <!-- ӡ�ڰ��� -->
+    <color name="mediumvioletred">#c71585</color>
+ <!-- ��������ɫ -->
+    <color name="silver">#c0c0c0</color>
+ <!-- ��ɫ -->
+    <color name="darkkhaki">#bdb76b</color>
+ <!-- ���ƺ�ɫ -->
+    <color name="rosybrown">#bc8f8f</color>
+ <!-- ��õ��� -->
+    <color name="mediumorchid">#ba55d3</color>
+ <!-- �з���ɫ -->
+    <color name="darkgoldenrod">#b8860b</color>
+ <!-- �����ɫ -->
+    <color name="firebrick">#b22222</color>
+ <!-- ��שɫ -->
+    <color name="powderblue">#b0e0e6</color>
+ <!-- ����ɫ -->
+    <color name="lightsteelblue">#b0c4de</color>
+ <!-- ������ɫ -->
+    <color name="paleturquoise">#afeeee</color>
+ <!-- �Ա�ʯ�� -->
+    <color name="greenyellow">#adff2f</color>
+ <!-- ����ɫ -->
+    <color name="lightblue">#add8e6</color>
+ <!-- ����ɫ -->
+    <color name="darkgray">#a9a9a9</color>
+ <!-- ����ɫ -->
+    <color name="darkgrey">#a9a9a9</color>
+ <!-- ����ɫ -->
+    <color name="brown">#a52a2a</color>
+ <!-- ��ɫ -->
+    <color name="sienna">#a0522d</color>
+ <!-- ��ɫ -->
+    <color name="darkorchid">#9932cc</color>
+ <!-- ����ɫ -->
+    <color name="palegreen">#98fb98</color>
+ <!-- ����ɫ -->
+    <color name="darkviolet">#9400d3</color>
+ <!-- ��������ɫ -->
+    <color name="mediumpurple">#9370db</color>
+ <!-- ����ɫ -->
+    <color name="lightgreen">#90ee90</color>
+ <!-- ����ɫ -->
+    <color name="darkseagreen">#8fbc8f</color>
+ <!-- ������ɫ -->
+    <color name="saddlebrown">#8b4513</color>
+ <!-- �غ�ɫ -->
+    <color name="darkmagenta">#8b008b</color>
+ <!-- ����� -->
+    <color name="darkred">#8b0000</color>
+ <!-- ����ɫ -->
+    <color name="blueviolet">#8a2be2</color>
+ <!-- ��������ɫ -->
+    <color name="lightskyblue">#87cefa</color>
+ <!-- ������ɫ -->
+    <color name="skyblue">#87ceeb</color>
+ <!-- ����ɫ -->
+    <color name="gray">#808080</color>
+ <!-- ��ɫ -->
+    <color name="grey">#808080</color>
+ <!-- ��ɫ -->
+    <color name="olive">#808000</color>
+ <!-- ���ɫ -->
+    <color name="purple">#800080</color>
+ <!-- ��ɫ -->
+    <color name="maroon">#800000</color>
+ <!-- ��ɫ -->
+    <color name="aquamarine">#7fffd4</color>
+ <!-- ����ɫ -->
+    <color name="chartreuse">#7fff00</color>
+ <!-- ����ɫ -->
+    <color name="lawngreen">#7cfc00</color>
+ <!-- ����ɫ -->
+    <color name="mediumslateblue">#7b68ee</color>
+ <!-- �а���ɫ -->
+    <color name="lightslategray">#778899</color>
+ <!-- ������ -->
+    <color name="lightslategrey">#778899</color>
+ <!-- ������ -->
+    <color name="slategray">#708090</color>
+ <!-- ��ʯɫ -->
+    <color name="slategrey">#708090</color>
+ <!-- ��ʯɫ -->
+    <color name="olivedrab">#6b8e23</color>
+ <!-- ���̺�ɫ -->
+    <color name="slateblue">#6a5acd</color>
+ <!-- ʯ��ɫ -->
+    <color name="dimgray">#696969</color>
+ <!-- ����ɫ -->
+    <color name="dimgrey">#696969</color>
+ <!-- ����ɫ -->
+    <color name="mediumaquamarine">#66cdaa</color>
+ <!-- ����ɫ -->
+    <color name="cornflowerblue">#6495ed</color>
+ <!-- ����ɫ -->
+    <color name="cadetblue">#5f9ea0</color>
+ <!-- ����ɫ -->
+    <color name="darkolivegreen">#556b2f</color>
+ <!-- ������� -->
+    <color name="indigo">#4b0082</color>
+ <!-- ����ɫ -->
+    <color name="mediumturquoise">#48d1cc</color>
+ <!-- ���̱�ʯ -->
+    <color name="darkslateblue">#483d8b</color>
+ <!-- ������ɫ -->
+    <color name="steelblue">#4682b4</color>
+ <!-- ����ɫ -->
+    <color name="royalblue">#4169e1</color>
+ <!-- �ʼ��� -->
+    <color name="turquoise">#40e0d0</color>
+ <!-- ����ɫ -->
+    <color name="mediumseagreen">#3cb371</color>
+ <!-- �к��� -->
+    <color name="limegreen">#32cd32</color>
+ <!-- ����ɫ -->
+    <color name="darkslategray">#2f4f4f</color>
+ <!-- ���߻�ɫ -->
+    <color name="darkslategrey">#2f4f4f</color>
+ <!-- ���߻�ɫ -->
+    <color name="seagreen">#2e8b57</color>
+ <!-- ����ɫ -->
+    <color name="forestgreen">#228b22</color>
+ <!-- ɭ���� -->
+    <color name="lightseagreen">#20b2aa</color>
+ <!-- ������ɫ -->
+    <color name="dodgerblue">#1e90ff</color>
+ <!-- ����ɫ -->
+    <color name="midnightblue">#191970</color>
+ <!-- �л���ɫ -->
+    <color name="aqua">#00ffff</color>
+ <!-- ǳ��ɫ -->
+    <color name="cyan">#00ffff</color>
+ <!-- ��ɫ -->
+    <color name="springgreen">#00ff7f</color>
+ <!-- ����ɫ -->
+    <color name="lime">#00ff00</color>
+ <!-- ���ɫ -->
+    <color name="mediumspringgreen">#00fa9a</color>
+ <!-- �д���ɫ -->
+    <color name="darkturquoise">#00ced1</color>
+ <!-- ����ʯ�� -->
+    <color name="deepskyblue">#00bfff</color>
+ <!-- ������ɫ -->
+    <color name="darkcyan">#008b8b</color>
+ <!-- ����ɫ -->
+    <color name="teal">#008080</color>
+ <!-- ˮѼɫ -->
+    <color name="green">#008000</color>
+ <!-- ��ɫ -->
+    <color name="darkgreen">#006400</color>
+ <!-- ����ɫ -->
+    <color name="blue">#0000ff</color>
+ <!-- ��ɫ -->
+    <color name="mediumblue">#0000cd</color>
+ <!-- ����ɫ -->
+    <color name="darkblue">#00008b</color>
+ <!-- ����ɫ -->
+    <color name="navy">#000080</color>
+ <!-- ����ɫ -->
+    <color name="black">#000000</color>
+ <!-- ��ɫ -->
+
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="accent_1">#ff29549f</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+    <color name="umeng_fb_color_btn_pressed">#1495F7</color>
+    <color name="umeng_fb_color_btn_normal">#333333</color>
+
+    <color name="user_detail_public_bg">#f3f3f3</color>
+    <color name="user_list_public_bg">#e5e6e7</color>
+    <color name="normal_text">#FF758493</color>
+    
+    <color name="trans_1">#15000000</color>
+
+    <color name="pulseColor00">#003300</color>
+    <color name="pulseColor01">#003333</color>
+    <color name="pulseColor02">#003366</color>
+    <color name="pulseColor03">#003399</color>
+    <color name="pulseColor04">#0033cc</color>
+    <color name="pulseColor05">#0033ff</color>
+
+    <color name="pulseColor10">#660000</color>
+    <color name="pulseColor11">#660033</color>
+    <color name="pulseColor12">#660066</color>
+    <color name="pulseColor13">#660099</color>
+    <color name="pulseColor14">#6600CC</color>
+
+    <color name="pulseColor20">#990000</color>
+    <color name="pulseColor21">#990033</color>
+    <color name="pulseColor22">#990066</color>
+    <color name="pulseColor23">#990099</color>
+    <color name="pulseColor24">#9900cc</color>
+    <color name="pulseColor25">#9900FF</color>
+
+    <color name="pulseColor30">#FF0000</color>
+    <color name="pulseColor31">#FF0033</color>
+    <color name="pulseColor32">#FF0066</color>
+    <color name="pulseColor33">#FF0099</color>
+    <color name="pulseColor34">#FF00cc</color>
+
+    <color name="pulseColor40">#FF9900</color>
+    <color name="pulseColor41">#FF9933</color>
+    <color name="pulseColor42">#FF9966</color>
+    <color name="pulseColor43">#FF9999</color>
+    <color name="pulseColor44">#FF99cc</color>
+    <color name="pulseColor45">#FF99ff</color>
+
+    <color name="pulseColor50">#FFFF00</color>
+    <color name="pulseColor51">#FFFF33</color>
+    <color name="pulseColor52">#FFFF66</color>
+    <color name="pulseColor53">#FFFF99</color>
+    <color name="pulseColor54">#FFFFcc</color>
+
+    <color name="pulseColor60">#00CC00</color>
+    <color name="pulseColor61">#00CC33</color>
+    <color name="pulseColor62">#00CC66</color>
+    <color name="pulseColor63">#00CC99</color>
+    <color name="pulseColor64">#00CCcc</color>
+    <color name="pulseColor65">#00CCff</color>
+
+    <color name="pulseColor70">#009900</color>
+    <color name="pulseColor71">#009933</color>
+    <color name="pulseColor72">#009966</color>
+    <color name="pulseColor73">#009999</color>
+    <color name="pulseColor74">#0099cc</color>
+
+</resources>
