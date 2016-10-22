@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Pulse2SampleAppAndroid.iml" filepath="$PROJECT_DIR$/Pulse2SampleAppAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-butterknife-zelezny/android-butterknife-zelezny.iml" filepath="$PROJECT_DIR$/android-butterknife-zelezny/android-butterknife-zelezny.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libPulseSDK/libPulseSDK.iml" filepath="$PROJECT_DIR$/libPulseSDK/libPulseSDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/pulsesdk-release/pulsesdk-release.iml" filepath="$PROJECT_DIR$/pulsesdk-release/pulsesdk-release.iml" />
     </modules>
   </component>

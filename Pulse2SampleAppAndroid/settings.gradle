@@ -1,1 +1,1 @@
-include ':app', ':android-butterknife-zelezny', ':pulsesdk-release'
+include ':app', ':android-butterknife-zelezny', ':pulsesdk-release', ':libPulseSDK'

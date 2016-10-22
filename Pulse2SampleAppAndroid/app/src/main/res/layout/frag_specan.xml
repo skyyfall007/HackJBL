@@ -4,19 +4,19 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
-    <ToggleButton
-        android:text="ToggleButton"
-        android:layout_width="match_parent"
-        android:id="@+id/toggleButton"
-        android:layout_height="wrap_content"
-        android:textOff="Off"
-        android:textOn="On" />
 
     <TextView
-        android:text="TextView"
+        android:text="Visualizer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView4"
         android:textSize="45sp" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_weight="0.16" />
 
 </LinearLayout>

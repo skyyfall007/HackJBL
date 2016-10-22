@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="635c3ee151fb7e6e9fe16cfd8133f24a53c3c37f">
+        <dex dex="/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_220c6627024e28c155cb8903675351113d0bbeb9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4fc5c248c65f224e6a6938a1e610d785a2c08cde">
+        <dex dex="/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c166c40052c3cc2f17b9cc5a9e9e984591b77291/classes.dex" />
+    </item>
+
+</items>
