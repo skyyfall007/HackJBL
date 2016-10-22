@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/merged/debug/raw/workaround_1min.mp3",
+        "source": "/home/leemartinc/HackJBL/android-visualizer-master1/app/src/main/res/raw/workaround_1min.mp3"
+    },
+    {
+        "merged": "/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/merged/debug/raw/test.mp3",
+        "source": "/home/leemartinc/HackJBL/android-visualizer-master1/app/src/main/res/raw/test.mp3"
+    }
+]

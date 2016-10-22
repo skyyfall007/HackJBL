@@ -1,0 +1,24 @@
+#Internal package file, do not edit.
+#Sat Oct 22 04:24:55 EDT 2016
+2.base=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_
+5.file=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_/res/raw/workaround_1min.mp3
+5.set=ANDROID_RESOURCE
+3.base=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_
+6.file=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+2.set=ANDROID_RESOURCE
+4.base=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_
+count=7
+0.file=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_/res/drawable/bg.xml
+5.base=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_
+1.file=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/ic_launcher.png
+1.set=ANDROID_RESOURCE
+2.file=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+6.set=ANDROID_RESOURCE
+0.base=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_
+3.file=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+3.set=ANDROID_RESOURCE
+1.base=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_
+4.file=/home/leemartinc/HackJBL/android-visualizer-master1/app/build/intermediates/res/resources-debug.ap_/res/raw/test.mp3
+0.set=ANDROID_RESOURCE

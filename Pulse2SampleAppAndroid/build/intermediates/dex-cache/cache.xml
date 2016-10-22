@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="e73dec30543ee1b52da7a1b569a6e75bf0e2c585">
+        sha1="c48a4eaa0cbdeab6a4dfe15bee92ea096a7a4d92">
         <dex dex="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0cfb66559f497c697d1661b795bf2b64b0d39f0f/classes.dex" />
     </item>
     <item
@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="c9ad0602b02a607a58840be53b59e832d802ea9d">
+        sha1="bf4379e1d782603837e6951a810a6249ed3e739e">
         <dex dex="/home/leemartinc/HackJBL/Pulse2SampleAppAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ede8921e124841d1d4ed3fab7ae77f1847bd89bb/classes.dex" />
     </item>
     <item

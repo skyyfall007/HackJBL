@@ -41,6 +41,8 @@ public class PulseDemo extends AppCompatActivity implements PulseNotifiedListene
     FragCamera fragCamera;
     FragChar fragChar;
     FragSpecAn fragSpecAn;
+    FragSpecAnTest fragSpecAnTest;
+    FragBPM fragBPM;
     ArrayList<Map<String, Object>> adaptParam;
     CustomViewPager viewPager;
     SlidingTabLayout slidingTabLayout;
@@ -54,7 +56,16 @@ public class PulseDemo extends AppCompatActivity implements PulseNotifiedListene
     Timer mTimer=null;
     boolean isConnectBT;
     int navigationBarHeight = 0;
+
+
+
+    //color constructors
     public ImplementPulseHandler pulseHandler = new ImplementPulseHandler();
+    public IPH pulseHandler2 = new IPH();
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,13 +84,16 @@ public class PulseDemo extends AppCompatActivity implements PulseNotifiedListene
         fragments.add(fragMic = new FragMic());
         fragments.add(fragCamera = new FragCamera());
         fragments.add(fragChar = new FragChar());
-        fragments.add(fragSpecAn = new FragSpecAn());
+       // fragments.add(fragSpecAn = new FragSpecAn());
+       // fragments.add(fragBPM
+        fragments.add(fragSpecAnTest = new FragSpecAnTest());
         adaptParam = new ArrayList<Map<String, Object>>();
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Color").putObject("image", (Object) R.mipmap.splash));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Pattern").putObject("image", (Object) R.mipmap.broadcast));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Mic").putObject("image", (Object) R.mipmap.mic));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Picker").putObject("image", (Object) R.mipmap.picker));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Character").putObject("image", (Object) R.mipmap.character));
+       // adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Spectrum\nAnalyzer").putObject("image", (Object) R.mipmap.equalizer));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Spectrum\nAnalyzer").putObject("image", (Object) R.mipmap.equalizer));
 
         vpAdapter = new MyFragPagerAdapter(getSupportFragmentManager(), fragments, adaptParam);
