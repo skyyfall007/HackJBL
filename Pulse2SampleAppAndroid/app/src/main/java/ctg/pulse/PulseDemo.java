@@ -29,6 +29,7 @@ import toolbarslidingtab.SlidingTabLayout;
 import util.adapter.MyFragPagerAdapter;
 import util.proxy.HashMapProxy;
 import util.widget.CustomViewPager;
+import android.support.v4.app.Fragment;
 
 public class PulseDemo extends AppCompatActivity implements PulseNotifiedListener {
 
@@ -39,6 +40,7 @@ public class PulseDemo extends AppCompatActivity implements PulseNotifiedListene
     FragMic fragMic;
     FragCamera fragCamera;
     FragChar fragChar;
+    FragSpecAn fragSpecAn;
     ArrayList<Map<String, Object>> adaptParam;
     CustomViewPager viewPager;
     SlidingTabLayout slidingTabLayout;
@@ -47,7 +49,8 @@ public class PulseDemo extends AppCompatActivity implements PulseNotifiedListene
     static int mWidth, mHeight, statusBarHeight,realHeight, mDensityInt;
     static float scale, mDensity;
     boolean isActive;
-    static int FRAG_COLOR_ID = 0, FRAG_PATTERN_ID = 1, FRAG_MIC_ID = 2, FRAG_CAMERA_ID = 3, FRAG_CHAR_ID = 4;
+    //@leemartinc Added Specan
+    static int FRAG_COLOR_ID = 0, FRAG_PATTERN_ID = 1, FRAG_MIC_ID = 2, FRAG_CAMERA_ID = 3, FRAG_CHAR_ID = 4, FRAG_SPECAN_ID = 5;
     Timer mTimer=null;
     boolean isConnectBT;
     int navigationBarHeight = 0;
@@ -70,12 +73,14 @@ public class PulseDemo extends AppCompatActivity implements PulseNotifiedListene
         fragments.add(fragMic = new FragMic());
         fragments.add(fragCamera = new FragCamera());
         fragments.add(fragChar = new FragChar());
+        fragments.add(fragSpecAn = new FragSpecAn());
         adaptParam = new ArrayList<Map<String, Object>>();
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Color").putObject("image", (Object) R.mipmap.splash));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Pattern").putObject("image", (Object) R.mipmap.broadcast));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Mic").putObject("image", (Object) R.mipmap.mic));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Picker").putObject("image", (Object) R.mipmap.picker));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Character").putObject("image", (Object) R.mipmap.character));
+        adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Spectrum\nAnalyzer").putObject("image", (Object) R.mipmap.equalizer));
 
         vpAdapter = new MyFragPagerAdapter(getSupportFragmentManager(), fragments, adaptParam);
         viewPager.setOffscreenPageLimit(fragments.size());

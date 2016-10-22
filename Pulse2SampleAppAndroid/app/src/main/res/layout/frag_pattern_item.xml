@@ -5,16 +5,18 @@
     android:orientation="vertical"
     android:gravity="center"
     >
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:src="@mipmap/pat_equlizer"
-        android:id="@+id/pattern_iv"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
         android:text="EQUALIZER"
         android:id="@+id/content_tv"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:src="@mipmap/pat_equlizer"
+        android:id="@+id/pattern_iv"/>
 </LinearLayout>
