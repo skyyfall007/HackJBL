@@ -24,6 +24,10 @@ import butterknife.Bind;
 import util.widget.MyGridView;
 
 public class FragSpecAn extends android.support.v4.app.Fragment {
+
+    public ToggleButton toggleButton;
+    public TextView stateOnOff;
+
     @Bind(R.id.textView4)
     TextView text;
     @Bind(R.id.toggleButton)
@@ -31,24 +35,24 @@ public class FragSpecAn extends android.support.v4.app.Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.frag_specan, container, false);
-
-    }
-
-
-
-
-
-            public void onClick(View view) {
-                //view =
-            if (toggle.isChecked()) {
-                text.setVisibility(View.VISIBLE);
-            } else {
-                text.setVisibility(View.INVISIBLE);
+    public View onCreateView(LayoutInflater inflater,
+                             ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.frag_specan, container, false);
+        toggleButton = (ToggleButton) view.findViewById(R.id.toggleButton);
+        stateOnOff = (TextView) view.findViewById(R.id.textView4);
+        stateOnOff.setText("OFF");
+        toggleButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    stateOnOff.setText("On");
+                } else {
+                    stateOnOff.setText("Off");
+                }
             }
-        }
+        });
+        return view;
     }
+}
 
 
