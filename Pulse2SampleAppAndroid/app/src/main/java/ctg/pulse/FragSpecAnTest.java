@@ -1,10 +1,18 @@
 package ctg.pulse;
 import android.app.Fragment;
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.Paint;
+import android.location.GpsStatus;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.SoundEffectConstants;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CompoundButton;
@@ -12,14 +20,20 @@ import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 
+
 import com.harman.pulsesdk.ImplementPulseHandler;
 import com.harman.pulsesdk.PulseHandlerInterface;
 
 import com.harman.pulsesdk.PulseColor;
 import com.harman.pulsesdk.PulseHandlerInterface;
 
+import java.util.Random;
+
 import Hexagon.HexagonButtonLayout;
 import Hexagon.HexagonItem;
+
+import static android.graphics.Bitmap.createBitmap;
+import static ctg.pulse.R.color.blue;
 
 /**
  * Created by leemartinc on 10/22/16.
@@ -35,7 +49,7 @@ public class FragSpecAnTest extends android.support.v4.app.Fragment  {
     private TextView mColorText;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(LayoutInflater inflater, final ViewGroup container,
                              Bundle savedInstanceState) {
 
         pulseDemo = (PulseDemo)getActivity();
@@ -67,6 +81,8 @@ public class FragSpecAnTest extends android.support.v4.app.Fragment  {
 
 
 
+
+
         HexagonButtonLayout.setOnItemClickListener(new HexagonButtonLayout.OnItemClickListener() {
 
 
@@ -80,62 +96,164 @@ public class FragSpecAnTest extends android.support.v4.app.Fragment  {
                 mColorText.setText(str);
 
 
-                PulseColor[] pixes = new PulseColor[99];
+                    Boolean test = true;
+
+
+                    PulseColor[] pixes = new PulseColor[99];
+                    for (int i = 0; i < 99; i++) {
+                        //set image by yourself
+                        pixes[i] = new PulseColor((byte)0, (byte)0, (byte) 0);
+                    }
+
+
+
+
+
+
+
+
+                    while( test == true){
+                        Random r = new Random();
+                        int ranred = r.nextInt(225) + 1;
+
+                        Random b = new Random();
+                        int ranblue = b.nextInt(225) + 1;
+
+                        Random g = new Random();
+                        int rangreen = g.nextInt(225) + 1;
+
+                        PulseColor pulseColor = new PulseColor();
+                    pulseColor.red = (byte)(ranred);
+                    pulseColor.green = (byte)(rangreen);
+                    pulseColor.blue = (byte)(ranblue);
+
+                    try{
+                        Thread.sleep(10);
+                    }catch(InterruptedException e){
+                        System.out.println("got interrupted!");
+                    }
+                    pulseDemo.pulseHandler.SetBackgroundColor(pulseColor, mBroadcast);
+
+                }
+
+
+
+
                 for (int i = 0; i < 99; i++) {
                     //set image by yourself
                     pixes[i] = new PulseColor((byte)0, (byte)0, (byte) 0);
                 }
-                pixes[22] = new PulseColor((byte)0, (byte)0, (byte) 255);
-                pulseDemo.pulseHandler.SetColorImage(pixes);
+                Random rn = new Random();
+                int num = rn.nextInt(98) + 1;
 
-
-
-
-
-//                PulseColor pulseColor = new PulseColor();
-//                pulseColor.red = (byte)(0);
-//                pulseColor.green = (byte)(250);
-//                pulseColor.blue = (byte)(250);
-//                pulseDemo.pulseHandler.SetBackgroundColor(pulseColor, mBroadcast);
+//                pixes[88] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[77] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[66] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[55] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[44] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[33] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[22] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[11] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[0] = new PulseColor((byte)0, (byte)0, (byte) 255);
 //
-//                final PulseColor[] pixels = new PulseColor[2];
-//                pixels[0] = new PulseColor((byte)0, (byte) 255, (byte)0);
-//                pulseDemo.pulseHandler.SetColorImage(pixels);
+//
+//                pixes[91] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[80] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[69] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[58] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[47] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[36] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[25] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[14] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[3] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//
+//
+//                pixes[94] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[83] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[72] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[61] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[50] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[39] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[28] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[17] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[6] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//
+//
+//
+//                pixes[97] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[86] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[75] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[64] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[53] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[42] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[31] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[20] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[10] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//
+//                pulseDemo.pulseHandler.SetColorImage(pixes);
+//
+//                pixes[88] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[77] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[66] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[55] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[44] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[33] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[22] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[11] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[0] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//
+//
+//                pixes[91] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[80] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[69] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[58] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[47] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[36] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[25] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[14] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[3] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//
+//
+//                pixes[94] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[83] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[72] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[61] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[50] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[39] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[28] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[17] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[6] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//
+//
+//
+//                pixes[97] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[86] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[75] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[64] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[53] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[42] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[31] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                pixes[20] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//                //pixes[10] = new PulseColor((byte)0, (byte)0, (byte) 255);
+//
+//                pulseDemo.pulseHandler.SetColorImage(pixes);
 
 
-
+                createImage(11,9,blue);
             }
 
-            public int[] grid(int row, int height) {
+//      LED LAYOUT
+//                        {0,   1,   2, 3,  4,  5,  6,  7,  8,  9, 10},
+//                        {11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21},
+//                        {22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32},
+//                        {33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43},
+//                        {44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54},
+//                        {55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65},
+//                        {66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76},
+//                        {77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87},
+//                        {88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98}
 
 
-                final int[][] matrix = {
-
-                        /*9*/{88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98},
-                        /*8*/{77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87},
-                        /*7*/{66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76},
-                        /*6*/{55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65},
-                        /*5*/{44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54},
-                        /*4*/{33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43},
-                        /*3*/{22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32},
-                        /*2*/{11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21},
-                        /*1*/{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-                        // 1    2  3    4  5   6   7   8   9   10  11
-                };
-
-
-                for (int i = 0; i < matrix.length; i++) {
-                    for (int j = 0; j < matrix[i].length; j++) {
-                        System.out.print(matrix[i][j] + " ");
-                    }
-                    System.out.println();
-                }
-                //CREATE ARRAY FOR THOSE VALUES IN THE COLUMN THEN RETURN THE ARRAY.
-                //column 5, row 4
-                return matrix[5];
-
-
-            }
 
         });
 
@@ -161,10 +279,22 @@ public class FragSpecAnTest extends android.support.v4.app.Fragment  {
     }
 
 
-    public void dance(){
-
-
-
+    public static Bitmap createImage(int width, int height, int color) {
+        Bitmap bitmap = createBitmap(width, height, Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bitmap);
+        Paint paint = new Paint();
+        paint.setColor(color);
+        canvas.drawRect(0F, 0F, (float) width, (float) height, paint);
+        int[] pixels = new int[bitmap.getHeight()*bitmap.getWidth()];
+        bitmap.getPixels(pixels, 0, bitmap.getWidth(), 0, 0, bitmap.getWidth(), bitmap.getHeight());
+        for (int i=0; i<bitmap.getWidth()*5; i++)
+            pixels[i] = Color.BLUE;
+        bitmap.setPixels(pixels, 0, bitmap.getWidth(), 0, 0, bitmap.getWidth(), bitmap.getHeight());
+        return bitmap;
     }
+
+
+
+
 
 }

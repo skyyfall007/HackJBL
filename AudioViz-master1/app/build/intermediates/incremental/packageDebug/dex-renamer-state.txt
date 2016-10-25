@@ -1,0 +1,4 @@
+#Sun Oct 23 05:13:34 EDT 2016
+base.0=/home/leemartinc/HackJBL/AudioViz-master1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/leemartinc/HackJBL/AudioViz-master1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

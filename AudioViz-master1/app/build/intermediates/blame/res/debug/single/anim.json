@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/leemartinc/HackJBL/AudioViz-master1/app/build/intermediates/res/merged/debug/anim/hide_bottom_menu.xml",
+        "source": "/home/leemartinc/HackJBL/AudioViz-master1/app/src/main/res/anim/hide_bottom_menu.xml"
+    },
+    {
+        "merged": "/home/leemartinc/HackJBL/AudioViz-master1/app/build/intermediates/res/merged/debug/anim/hide_top_menu.xml",
+        "source": "/home/leemartinc/HackJBL/AudioViz-master1/app/src/main/res/anim/hide_top_menu.xml"
+    },
+    {
+        "merged": "/home/leemartinc/HackJBL/AudioViz-master1/app/build/intermediates/res/merged/debug/anim/show_bottom_menu.xml",
+        "source": "/home/leemartinc/HackJBL/AudioViz-master1/app/src/main/res/anim/show_bottom_menu.xml"
+    },
+    {
+        "merged": "/home/leemartinc/HackJBL/AudioViz-master1/app/build/intermediates/res/merged/debug/anim/show_top_menu.xml",
+        "source": "/home/leemartinc/HackJBL/AudioViz-master1/app/src/main/res/anim/show_top_menu.xml"
+    }
+]

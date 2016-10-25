@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Visualizer/bin/dexedLibs/heyzap-ads-sdk-1a8c8a715eb572d59b6341d5ecea49d9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Visualizer/bin/dexedLibs/android-support-v4-e14f3b58d5d58f1ee69898327648f7d9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Visualizer/bin/dexedLibs/android-support-v4-2c266c98b769ade92f70ff6ce470194a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Visualizer/bin/dexedLibs/GoogleAdMobAdsSdk-6.4.1-71915a03643c86d5184da88b435b4342.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Visualizer/bin/dexedLibs/android-support-v4-66fdfe39ab04c0b8b85d0996d8ecd39b.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

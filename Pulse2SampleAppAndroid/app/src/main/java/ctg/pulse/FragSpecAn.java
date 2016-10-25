@@ -15,6 +15,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 import android.widget.Button;
+import java.util.*;
 
 import com.harman.pulsesdk.ImplementPulseHandler;
 import com.harman.pulsesdk.PulseColor;
@@ -31,6 +32,7 @@ import com.harman.pulsesdk.PulseNotifiedListener;
 import com.harman.pulsesdk.ImplementPulseHandler;
 
 
+import java.util.Random;
 
 import Hexagon.HexagonButtonLayout;
 import butterknife.Bind;
@@ -41,11 +43,14 @@ import util.widget.MyGridView;
 
 public class FragSpecAn extends android.support.v4.app.Fragment {
 
-    public Button button;
+
+    private boolean mBroadcast = false;
 
     @Bind(R.id.textView4)
     TextView text;
-    @Bind(R.id.btn)
+    @Bind(R.id.toggleButton)
+    ToggleButton button;
+
 
 
 
@@ -54,13 +59,6 @@ public class FragSpecAn extends android.support.v4.app.Fragment {
 
     PulseDemo pulseDemo;
 
-    public ImplementPulseHandler lights = new ImplementPulseHandler();
-
-    public PulseHandlerInterface phi;
-
-    public static Pulse pulse = new Pulse();
-
-    public static final int FACEBOOK_COLOR = 0x0011ff;
 
 
     @Override
@@ -69,28 +67,45 @@ public class FragSpecAn extends android.support.v4.app.Fragment {
         View view = inflater.inflate(R.layout.frag_specan, container, false);
 
 
-        button = (Button)view.findViewById(R.id.btn);
+
+        button = (ToggleButton)view.findViewById(R.id.toggleButton);
+
+
+
+
+
 
        button.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
-               Log.d("tag","hello");
-//               switch (view.getId()) {
-//                   case R.id.btn:
-//                       PulseColor[] pixes = new PulseColor[99];
-//                       for (int i = 0; i < 99; i++) {
-//                           //set image by yourself
-//                           pixes[i] = new PulseColor((byte)225, (byte)225, (byte)225);
-//                       }
-//                       pulseHander.SetColorImage(pixes);
-//                       break;
-//               }
-               PulseColor[] pixes = new PulseColor[99];
-               for (int i = 0; i < 99; i++) {
-                   //set image by yourself
-                   pixes[i] = new PulseColor((byte)225, (byte)0, (byte)0);
+
+
+               Random r = new Random();
+               int ranred = r.nextInt(225) + 1;
+
+               Random b = new Random();
+               int ranblue = b.nextInt(225) + 1;
+
+               Random g = new Random();
+               int rangreen = g.nextInt(225) + 1;
+
+               PulseColor pulseColor = new PulseColor();
+
+               while(button.isChecked()){
+                   pulseColor.red = (byte)(ranred);
+                   pulseColor.green = (byte)(rangreen);
+                   pulseColor.blue = (byte)(ranblue);
+
+                   try{
+                       Thread.sleep(1500);
+                   }catch(InterruptedException e){
+                       System.out.println("got interrupted!");
+                   }
+                   pulseDemo.pulseHandler.SetBackgroundColor(pulseColor, mBroadcast);
+
                }
-               pulseDemo.pulseHandler.SetColorImage(pixes);
+
+
 
            }
        });

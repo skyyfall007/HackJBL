@@ -84,7 +84,7 @@ public class PulseDemo extends AppCompatActivity implements PulseNotifiedListene
         fragments.add(fragMic = new FragMic());
         fragments.add(fragCamera = new FragCamera());
         fragments.add(fragChar = new FragChar());
-       // fragments.add(fragSpecAn = new FragSpecAn());
+       fragments.add(fragSpecAn = new FragSpecAn());
        // fragments.add(fragBPM
         fragments.add(fragSpecAnTest = new FragSpecAnTest());
         adaptParam = new ArrayList<Map<String, Object>>();
@@ -93,7 +93,7 @@ public class PulseDemo extends AppCompatActivity implements PulseNotifiedListene
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Mic").putObject("image", (Object) R.mipmap.mic));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Picker").putObject("image", (Object) R.mipmap.picker));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Character").putObject("image", (Object) R.mipmap.character));
-       // adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Spectrum\nAnalyzer").putObject("image", (Object) R.mipmap.equalizer));
+        adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Spectrum\nAnalyzer").putObject("image", (Object) R.mipmap.equalizer));
         adaptParam.add(new HashMapProxy<String, Object>().putObject("title", "Spectrum\nAnalyzer").putObject("image", (Object) R.mipmap.equalizer));
 
         vpAdapter = new MyFragPagerAdapter(getSupportFragmentManager(), fragments, adaptParam);
