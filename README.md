@@ -5,7 +5,7 @@
 
 
 # HackJBL (PROJECT NAME : LVLS)
-[![npm](https://img.shields.io/badge/platform-mobile web-lightgrey.svg)](https://devpost.com/software/lvls)
+[![npm](https://img.shields.io/badge/platform-hardware application-lightgrey.svg)](https://devpost.com/software/lvls)
 
 <p align="center">
 <b><a href="#overview">Overview</a></b>
