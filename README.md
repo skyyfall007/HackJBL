@@ -50,8 +50,8 @@ There were a lot of challenges with mapping out the layout of the LED lights in 
 
 ## CREDITS
 
-* Adele Francois [[@skyyfall007]] (https://github.com/skyyfall007) 
-* Lee - Martin Clarke  [[@leemartinc]] (https://github.com/leemartinc)
+* Adele Francois         [[@skyyfall007]] (https://github.com/skyyfall007) 
+* Lee - Martin Clarke    [[@leemartinc]] (https://github.com/leemartinc)
 * Patrick Crouch
 * Shaffer Patrick
 
