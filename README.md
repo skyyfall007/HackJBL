@@ -5,7 +5,7 @@
 
 
 # HackJBL (PROJECT NAME : LVLS)
-[![npm](https://img.shields.io/badge/platform-hardware application-lightgrey.svg)](https://devpost.com/software/lvls)
+[![npm](https://img.shields.io/badge/platform-hardware-lightgrey.svg)](https://github.com/skyyfall007/HackJBL/tree/master/Pulse2SampleAppAndroid/app)
 
 <p align="center">
 <b><a href="#inspiration">Inspiration</a></b>
