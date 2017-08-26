@@ -48,10 +48,12 @@ There were a lot of challenges with mapping out the layout of the LED lights in 
 
 •Most importantly as a team we learned, to rapidly adapt with change. We also learned that some ideas can sometimes fall apart. Hackthons are meant to expand your thinking outside the box in a limited amount of time. We defintely grew from this experience.
 
+![Alt Text](https://media.tenor.com/images/c3cdb32a8b73ac587506339e1582c3b5/tenor.gif)
+
 ## CREDITS
 
-* Adele Francois         [[@skyyfall007]] (https://github.com/skyyfall007) 
-* Lee - Martin Clarke    [[@leemartinc]] (https://github.com/leemartinc)
+* Adele Francois         [[@skyyfall007]](https://github.com/skyyfall007) 
+* Lee - Martin Clarke    [[@leemartinc]](https://github.com/leemartinc)
 * Patrick Crouch
 * Shaffer Patrick
 
